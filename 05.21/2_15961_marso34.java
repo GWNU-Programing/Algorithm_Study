@@ -42,7 +42,13 @@ public class Main {
                     visited[arr[j]]++;
                 } 
 
-                max = cnt;
+                if (max <= cnt) {
+                    if (visited[c] == 0) {
+                        max = cnt + 1;
+                    } else {
+                        max = cnt;
+                }
+            }
                 continue;
             }
             
