@@ -54,7 +54,7 @@ public class Main {
             visited[arr[i-1]]--;
 
             // 뒤에 하나 추가, 원형 리스트 처럼 사용하기 위해서 temp 사용
-            int temp = (i + k) >= n ? (i + k) - n : (i + k);
+            int temp = (i + k - 1) >= n ? (i + k -1) - n : (i + k -1);
 
             if (visited[arr[temp]] == 0) {
                 cnt++;
