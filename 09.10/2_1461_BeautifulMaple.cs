@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/1461
+// https://www.acmicpc.net/problem/1461
 
 using System;
 using System.Collections.Generic;
