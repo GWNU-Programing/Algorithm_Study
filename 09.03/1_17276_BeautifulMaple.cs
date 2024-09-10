@@ -1,6 +1,7 @@
 // https://www.acmicpc.net/problem/17276
 // 백준 17276 (백준)
 // 3번 째 케이스 (최종)
+/*
 using System;
 using System.IO;
 
@@ -113,7 +114,7 @@ class Program
         return result; // 회전된 배열 반환
     }
 }
-
+*/
 /*
 2번 케이스
 출력값이랑 근접해진 코드
